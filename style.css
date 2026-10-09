@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: grey;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav a {
+  padding: 10px 18px;
+  background-color: rgb(36, 134, 184);
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav a:hover {
+  background-color: rgb(68, 116, 179);
+}
+
+.banner {
+  padding: 15px;
+  height: 400px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/071/671/119/non_2x/save-the-ocean-world-ocean-day-illustration-vector.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.banner img {
+  height: 400px;
+  width: 700px;
+}
+
+#intro {
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  width: 650px;
+  margin: 30px auto;
+  align-items: center;
+}
+
+#intro img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#intro h4 {
+  color: rgb(38, 41, 109);
+  margin-bottom: 12px;
+}
+
+#intro p {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+#what-to-know,
+#facts,
+#how-to-help {
+  padding: 30px 15px;
+  background-color: rgb(126, 164, 229);
+  text-align: center;
+}
+
+
+#what-to-know h4,
+#facts h4,
+#how-to-help h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.whattoknow-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(107, 160, 190);
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.what-to-know-card {
+  padding: 16px;
+  width: 225px;
+  height: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  color: rgb(117, 26, 26);
+  background-color: rgb(249, 243, 243);
+  text-align: center;
+}
+
+.what-to-know-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+
+.footer {
+  color: aliceblue;
+  font-size: 25px;
+  text-align: center;
+  padding: 12px;
+}
